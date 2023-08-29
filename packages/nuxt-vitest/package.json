@@ -1,7 +1,7 @@
 {
   "name": "nuxt-vitest",
   "type": "module",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "license": "MIT",
   "repository": "danielroe/nuxt-vitest",
   "keywords": [
@@ -39,6 +39,7 @@
     "prepack": "nuxt-module-build",
     "build": "nuxt-module-build",
     "prepublishOnly": "pnpm build",
+    "release": "changelogen --release --no-commit --no-tag",
     "lint": "eslint .",
     "stub": "nuxt-module-build --stub"
   },
